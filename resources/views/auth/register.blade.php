@@ -33,8 +33,10 @@
                 <x-jet-label for="Usertype" value="{{ __('Usertype') }}" />
                     <select name="Usertype" id="Usertype" class="block mt-1 w-full">
                         <option value="" selected>choisissez votre compte</option>
-                        <option value="admin">admin</option>
-                        <option value="user">user</option>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                        <option value="client">Client</option>
+
 
                     </select>
             </div>
