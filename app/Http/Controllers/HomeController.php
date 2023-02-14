@@ -16,7 +16,8 @@ public function redirect(){
             return view('admin.home');
 
         }elseif ((Auth::user()->Usertype=='user')){
-                return view('dashboard');
+                return view('admin.user');
+
         }elseif(Auth::user()->Usertype=='client')
         {
             return view('admin.client');
