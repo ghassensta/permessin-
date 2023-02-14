@@ -12,6 +12,7 @@
 h3{
     color: rgb(86, 86, 142);
     font-family: cursive;
+
 }
 </style>
 @section('content')
