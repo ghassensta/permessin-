@@ -38,13 +38,13 @@ class HomeController extends Controller
 
  public function index1 (){
 
-    return view ('admin.client');
+    return view ('admin.home');
  }
 
 
  public function index2 (){
 
-    return view ('admin.home');
+    return view ('admin.client');
  }
 
  public function index3 (){

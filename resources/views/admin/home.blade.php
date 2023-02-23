@@ -1,3 +1,4 @@
+@extends('layouts.app')
 
 <style>
 .aaaa{
@@ -17,6 +18,7 @@ h3{
 @section('content')
 <div class="aaaa">
 
-    <h3>Hello in Admin interface</h3>
+    <h3>Hello in admin interface</h3>
 
 </div>
+@endsection

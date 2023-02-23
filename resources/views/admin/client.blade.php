@@ -17,7 +17,7 @@ h3{
 @section('content')
 <div class="aaaa">
 
-    <h3>Hello in Admin interface</h3>
+    <h3>Hello in client interface</h3>
 
 </div>
 
