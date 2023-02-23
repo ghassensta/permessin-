@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 class HomeController extends Controller
 {
 
-public function redirect(){
+/* public function redirect(){
 
     if (auth::id()){
 
@@ -33,6 +33,25 @@ public function redirect(){
 
 
 }
+ */
+
+
+ public function index1 (){
+
+    return view ('admin.client');
+ }
+
+
+ public function index2 (){
+
+    return view ('admin.home');
+ }
+
+ public function index3 (){
+
+    return view ('admin.user');
+ }
+
 
 }
 

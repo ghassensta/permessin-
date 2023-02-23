@@ -18,7 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-route::get('/home',[HomeController::class,'redirect']);
+route::get('/home1',[HomeController::class,'index1'])->middleware('auth','admin');
+route::get('/home2',[HomeController::class,'index2']);
+route::get('/home3',[HomeController::class,'index3']);
+
 
 Route::middleware([
     'auth:sanctum',

@@ -1,4 +1,3 @@
-@extends('layouts.app')
 
 <style>
 .aaaa{
@@ -21,5 +20,3 @@ h3{
     <h3>Hello in Admin interface</h3>
 
 </div>
-
-@endsection

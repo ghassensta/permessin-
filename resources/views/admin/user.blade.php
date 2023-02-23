@@ -1,4 +1,3 @@
-@extends('layouts.app')
 
 <style>
 .aaaa{
@@ -22,4 +21,3 @@ h3{
 
 </div>
 
-@endsection
